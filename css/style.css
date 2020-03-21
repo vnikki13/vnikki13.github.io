@@ -1,0 +1,12 @@
+header {
+  background-color: grey;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: fantasy;
+}
