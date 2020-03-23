@@ -10,3 +10,13 @@ img {
 body {
   font-family: fantasy;
 }
+
+nav {
+  border: red 4px solid;
+}
+
+nav a {
+  border: yellow 2px solid;
+  text-decoration: none;
+  color: black;
+}
