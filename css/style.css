@@ -20,3 +20,16 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
+.subject {
+  border: green 2px solid;
+}
+
+.images {
+  border: red 2px solid;
+  margin: 20px;
+}
+
+.subject h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
