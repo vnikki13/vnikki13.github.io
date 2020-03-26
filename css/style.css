@@ -1,4 +1,5 @@
 header {
+  min-width: 700px;
   background-color: grey;
   text-align: center;
 }
@@ -7,43 +8,51 @@ img {
   height: auto;
 }
 
+img:hover {
+  opacity: 70%;
+}
+
 body {
+  margin: 0px;
   font-family: fantasy;
-  border: blue solid 2px;
 }
 
 nav {
-  border: red 4px solid;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
 }
 
 nav a {
-  border: yellow 2px solid;
   text-decoration: none;
-  color: black;
-  
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: red;
 }
 
 .images {
   display: flex;
-  justify-content: center;
-  border: green 2px solid;
   padding: 5px;
-  margin: 2px;
-}
-
-.subject .images {
-  border: 5px yellowgreen solid;
 }
 
 .image {
-  border: red 2px solid;
   margin: 10px;
   text-align: center;
-  min-width: 220px;
+  min-width: 210px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .subject h2 {
+  margin: 60px 0px 0px 0px;
+  padding: 7px;
+  background-image: radial-gradient(rgb(163, 155, 155), white 70%);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border: brown 2px solid;
   text-align: center;
+  font-size: 40px;
+  min-width: 700px;
 }
