@@ -3,12 +3,13 @@ header {
   text-align: center;
 }
 img {
-  width: 500px;
+  max-width: 100%;
   height: auto;
 }
 
 body {
   font-family: fantasy;
+  border: blue solid 2px;
 }
 
 nav {
@@ -19,17 +20,30 @@ nav a {
   border: yellow 2px solid;
   text-decoration: none;
   color: black;
-}
-
-.subject {
-  border: green 2px solid;
+  
 }
 
 .images {
+  display: flex;
+  justify-content: center;
+  border: green 2px solid;
+  padding: 5px;
+  margin: 2px;
+}
+
+.subject .images {
+  border: 5px yellowgreen solid;
+}
+
+.image {
   border: red 2px solid;
-  margin: 20px;
+  margin: 10px;
+  text-align: center;
+  min-width: 220px;
 }
 
 .subject h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border: brown 2px solid;
+  text-align: center;
 }
